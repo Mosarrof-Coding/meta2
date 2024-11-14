@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function () {
       activeImgclass.src = newImageSrc;
     }
   }
-  addClass();
 
   // animation two
   const boxes1 = document.querySelectorAll(".mainclass1");
@@ -107,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       activeImgclass.src = newImageSrc;
     }
   }
+  addClass();
   addClass2();
 });
 
